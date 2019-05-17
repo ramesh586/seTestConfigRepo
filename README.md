@@ -12,20 +12,16 @@ Containing following services:
 5.Countries Service
 6.Search Service
 
+use command prompt/powershell
 ## Building the project
-		use command prompt/powershell
 		
-		```java
-			cd <service-directory>
-		```
+		cd <service-directory>
 		
-		```java
-			gradlew build
-		```
+		gradlew build
+
 ## Running the application
-		```java
+
 			java -jar .\build\libs\<Service-Name>-0.0.1-SNAPSHOT.jar
-		```
 
 ## Note: The following order need to start the services
 1.Eureka Name Service
