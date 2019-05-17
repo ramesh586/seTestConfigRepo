@@ -15,15 +15,15 @@ Containing following services:
 ## Building the project
 		use command prompt/powershell
 		
-		```bash
+		```
 			cd <service-directory>
 		```
 		
-		```bash
+		```
 			gradlew build
 		```
 ## Running the application
-		```bash
+		```
 			java -jar .\build\libs\<Service-Name>-0.0.1-SNAPSHOT.jar
 		```
 
